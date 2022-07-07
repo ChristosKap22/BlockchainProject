@@ -30,22 +30,11 @@ class App extends Component {
     const networkId = await web3.eth.net.getId()
     const networkData = LotteryProject.networks[networkId]
 
-    console.log(networkId)
-    console.log(networkData)
-
     if (networkData) {
-
       const lottery = web3.eth.Contract(LotteryProject.abi, networkData.address)
-      const Owner = await lottery.methods.owner.send({
-        from: this.state.account,
-        gas: 1608223
-      })
-      const CoOwner = await lottery.methods.coOwner.send({
-        from: this.state.account,
-        gas: 1608223
-      })
+      const Owner = await lottery.methods.owner.call()
+      const CoOwner = await lottery.methods.coOwner.call()
 
-      console.log(Owner)
       this.setState({coOwner: CoOwner})
       this.setState({owner: Owner})
       this.setState({lottery})
