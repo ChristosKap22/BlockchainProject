@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Blockchain2022Project/precache-manifest.f68b875bb8f82fe25f656ef2fd3d962a.js"
+  "/BlockchainProject/precache-manifest.6d2b8d619b3ceb7403e9ec07b66598ad.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Blockchain2022Project/index.html", {
+workbox.routing.registerNavigationRoute("/BlockchainProject/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
