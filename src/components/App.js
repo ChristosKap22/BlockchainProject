@@ -54,7 +54,7 @@ class App extends Component {
   bid = async (id) => {
     await this.state.lottery.methods.bid(id).send({
       from: this.state.account,
-      gas: 6721975,
+      gas: 2500000007,
       value: 200000000000000000
     })
     window.alert("Bidding in action ...")
@@ -94,14 +94,14 @@ class App extends Component {
   declareWinner = async () =>{
     await this.state.lottery.methods.declareWinner().send({
       from: this.state.account,
-      gas: 6721975
+      gas: 2500000007
     })
   }
 
   withdraw = async () =>{
     await this.state.lottery.methods.withdraw().send({
       from: this.state.account,
-      gas: 6721975
+      gas: 2500000007
     })
   }
 
