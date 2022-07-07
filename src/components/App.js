@@ -30,6 +30,9 @@ class App extends Component {
     const networkId = await web3.eth.net.getId()
     const networkData = LotteryProject.networks[networkId]
 
+    console.log(networkId)
+    console.log(networkData)
+
     if (networkData) {
 
       const lottery = web3.eth.Contract(LotteryProject.abi, networkData.address)
