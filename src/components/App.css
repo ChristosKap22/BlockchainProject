@@ -1,0 +1,19 @@
+/* Styles go here */
+.Car-img{
+    width: 400px ;
+    height: 400px ;
+    max-width: 100%; 
+    max-height:100%;
+}
+.Phone-img{
+    width: 400px ;
+    height: 400px ;
+    max-width: 100%; 
+    max-height:100%;
+}
+.Computer-img{
+    width: 400px ;
+    height: 400px ;
+    max-width: 100%; 
+    max-height:100%;
+}
