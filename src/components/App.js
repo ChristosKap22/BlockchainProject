@@ -36,6 +36,7 @@ class App extends Component {
       const Owner = await lottery.methods.owner.call()
       const CoOwner = await lottery.methods.coOwner.call()
 
+      console.log(Owner)
       this.setState({coOwner: CoOwner})
       this.setState({owner: Owner})
       this.setState({lottery})
