@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "79e88491b2abc211ce2d",
+    "revision": "fcfc495b340109e5dd87",
     "url": "/BlockchainProject/static/css/main.3d91f258.chunk.css"
   },
   {
-    "revision": "79e88491b2abc211ce2d",
-    "url": "/BlockchainProject/static/js/main.79e88491.chunk.js"
+    "revision": "fcfc495b340109e5dd87",
+    "url": "/BlockchainProject/static/js/main.fcfc495b.chunk.js"
   },
   {
     "revision": "3fd39bf5974f70320d48",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/BlockchainProject/static/media/phone.55523822.jpg"
   },
   {
-    "revision": "c8ad22d8557c33fadecd2193b8dae973",
+    "revision": "86cb40f7d988a79a68ee7499c3ad682d",
     "url": "/BlockchainProject/index.html"
   }
 ];
